@@ -36,10 +36,7 @@
 	============================================================================================ */
 	/* Home Banner Area css
 	============================================================================================ */
-	.home_banner_area {
-		min-height: 728px;
-		margin-bottom: 120px;
-	}
+
 	.header_area .navbar .nav .nav-item.submenu ul {
 		left: auto;
 		right: 0px;
@@ -430,4 +427,18 @@
 	.isotope_fillter .gallery_filter li {
 		margin-right: 17px;
 	}
+}
+
+@media only screen and (max-width: 767px){
+.banner-text h2, .banner-text p {
+    max-width: 450px;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
+
+.banner-text a {
+    display: block;
+    margin: 0 auto;
+    max-width: 450px;
+}
 }

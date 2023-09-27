@@ -40,9 +40,6 @@
 		min-height: 728px;
 		margin-bottom: 120px;
 	}
-	.home_banner_area .banner_inner {
-		min-height: 650px;
-	}
 	.header_area .navbar .nav .nav-item.submenu ul {
 		left: auto;
 		right: 0px;
@@ -53,7 +50,6 @@
 		display: block;
 	}
 	.home_banner_area .banner_content{
-		max-width: 500px;
 		margin: auto;
 	}
 	.home_banner_area .banner_inner .banner_content .media .d-flex {

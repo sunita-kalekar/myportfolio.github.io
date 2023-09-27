@@ -66,8 +66,8 @@ a {
   margin: 0px; }
 
 body {
-  line-height: 26px;
-  font-size: 16px;
+  line-height: 1.5;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #333; }
@@ -121,12 +121,11 @@ button:focus {
   .main_title h2 {
     font-family: "Heebo", sans-serif;
     font-size: 36px;
-    color: #222222;
     margin-bottom: 15px;
     text-transform: uppercase; }
   .main_title p {
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: normal;
     line-height: 26px;
     color: #333;
@@ -206,7 +205,6 @@ button:focus {
             transition: all 0.4s linear; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
               line-height: 45px;
-              color: #222222;
               padding: 0px 30px;
               transition: all 150ms linear;
               display: block;
@@ -229,7 +227,6 @@ button:focus {
       font-size: 12px;
       line-height: 60px;
       display: inline-block;
-      color: #222222;
       margin-left: 80px; }
       .header_area .navbar .search i {
         font-weight: 600; }
@@ -267,7 +264,7 @@ button:focus {
     display: inline-block;
     font-size: 12px;
     margin-right: 30px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: normal;
     color: #777777;
     transition: all 300ms linear 0s; }
@@ -281,7 +278,7 @@ button:focus {
     border-radius: 3px;
     line-height: 28px;
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: 500;
     padding-left: 19px;
     padding-right: 36px;
@@ -400,15 +397,13 @@ button:focus {
     min-height: 360px;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h2 {
-      color: #222222;
       font-size: 48px;
       font-family: "Heebo", sans-serif;
       margin-bottom: 0px;
       font-weight: bold; }
     .banner_area .banner_inner .banner_content .page_link a {
       font-size: 14px;
-      color: #222222;
-      font-family: "Roboto", sans-serif;
+      
       margin-right: 32px;
       position: relative; }
       .banner_area .banner_inner .banner_content .page_link a:before {
@@ -438,7 +433,7 @@ button:focus {
   margin-bottom: 30px; }
   .l_blog_item .date {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: normal;
     color: #777777;
     margin-top: 20px;
@@ -447,7 +442,6 @@ button:focus {
   .l_blog_item h4 {
     font-size: 18px;
     line-height: 24px;
-    color: #222222;
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -489,7 +483,7 @@ button:focus {
   display: inline-block;
   padding: 1px 18px;
   text-align: center;
-  color: #222222; }
+}
   .tags .tag_btn:before {
     background: #766dff; }
   .tags .tag_btn + .tag_btn {
@@ -551,7 +545,7 @@ button:focus {
     padding-bottom: 20px; }
     .blog_info .post_tag a {
       font: 300 14px/21px "Roboto", sans-serif;
-      color: #222222; }
+ }
       .blog_info .post_tag a:hover {
         color: #777777; }
       .blog_info .post_tag a.active {
@@ -563,7 +557,7 @@ button:focus {
     padding-bottom: 12px;
     display: inline-block; }
     .blog_info .blog_meta li a i {
-      color: #222222;
+
       font-size: 16px;
       font-weight: 600;
       padding-left: 15px;
@@ -580,7 +574,6 @@ button:focus {
   .blog_details h2 {
     font-size: 24px;
     line-height: 36px;
-    color: #222222;
     font-weight: 600;
     transition: all 0.3s linear; }
     .blog_details h2:hover {
@@ -592,7 +585,6 @@ button:focus {
   font-size: 14px;
   line-height: 36px;
   display: inline-block;
-  color: #222222;
   font-weight: 500;
   padding: 0px 30px;
   background: #fff; }
@@ -647,7 +639,6 @@ button:focus {
     .blog_right_sidebar .author_widget h4 {
       font-size: 18px;
       line-height: 20px;
-      color: #222222;
       margin-bottom: 5px;
       margin-top: 30px; }
     .blog_right_sidebar .author_widget p {
@@ -656,7 +647,7 @@ button:focus {
       padding: 7px 0px 15px; }
       .blog_right_sidebar .author_widget .social_icon a {
         font-size: 14px;
-        color: #222222;
+        
         transition: all 0.2s linear; }
         .blog_right_sidebar .author_widget .social_icon a + a {
           margin-left: 20px; }
@@ -669,7 +660,7 @@ button:focus {
     .blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
       font-size: 14px;
       line-height: 20px;
-      color: #222222;
+      
       margin-bottom: 4px;
       transition: all 0.3s linear; }
       .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
@@ -749,7 +740,7 @@ button:focus {
       padding: 0px 13px;
       margin-bottom: 8px;
       transition: all 0.3s ease 0s;
-      color: #222222;
+      
       font-size: 12px; }
       .blog_right_sidebar .tag_cloud_widget ul li a:hover {
         background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
@@ -813,7 +804,7 @@ button:focus {
       font-size: 14px;
       transition: all 0.2s linear; }
       .single-post-area .social-links li a:hover {
-        color: #222222; }
+         }
 .single-post-area .blog_details {
   padding-top: 26px; }
   .single-post-area .blog_details p {
@@ -844,7 +835,7 @@ button:focus {
   .single-post-area .navigation-area h4 {
     font-size: 18px;
     line-height: 25px;
-    color: #222222; }
+     }
   .single-post-area .navigation-area .nav-left {
     text-align: left; }
     .single-post-area .navigation-area .nav-left .thumb {
@@ -893,13 +884,13 @@ button:focus {
   .comments-area h4 {
     text-align: center;
     margin-bottom: 50px;
-    color: #222222;
+    
     font-size: 18px; }
   .comments-area h5 {
     font-size: 16px;
     margin-bottom: 0px; }
   .comments-area a {
-    color: #222222; }
+     }
   .comments-area .comment-list {
     padding-bottom: 48px; }
     .comments-area .comment-list:last-child {
@@ -924,7 +915,7 @@ button:focus {
     margin-bottom: 0px; }
   .comments-area .btn-reply {
     background-color: #fff;
-    color: #222222;
+    
     border: 1px solid #eee;
     padding: 2px 18px;
     font-size: 12px;
@@ -947,7 +938,7 @@ button:focus {
     margin-bottom: 50px;
     font-size: 18px;
     line-height: 22px;
-    color: #222222; }
+     }
   .comment-form .name {
     padding-left: 0px; }
     @media (max-width: 767px) {
@@ -1029,27 +1020,27 @@ button:focus {
   box-shadow: none;
   padding: 0px 15px;
   font-size: 13px;
-  font-family: "Roboto", sans-serif;
+  
   font-weight: 300;
   color: #999999; }
   .reservation_form .form-group input.placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input:-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group .res_select {
@@ -1061,7 +1052,7 @@ button:focus {
   line-height: 36px; }
   .reservation_form .form-group .res_select .current {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group .res_select:after {
@@ -1100,9 +1091,9 @@ button:focus {
     color: "Roboto", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
-    color: #222222; }
+     }
     .contact_info .info_item h6 a {
-      color: #222222; }
+       }
   .contact_info .info_item p {
     font-size: 14px;
     line-height: 24px;
@@ -1115,7 +1106,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: "Roboto", sans-serif;
+    
     border-radius: 0px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1166,7 +1157,7 @@ button:focus {
       text-align: center;
       color: #766dff;
       padding-bottom: 10px;
-      font-family: "Roboto", sans-serif; }
+       }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
@@ -1208,10 +1199,10 @@ button:focus {
 /*==============Elements Button Area css ================*/
 .elements_button .title_color {
   margin-bottom: 30px;
-  color: #222222; }
+   }
 
 .title_color {
-  color: #222222; }
+   }
 
 .button-group-area {
   margin-top: 15px; }
@@ -1225,7 +1216,7 @@ button:focus {
     margin-right: 10px; }
   .button-group-area .link {
     text-decoration: underline;
-    color: #222222;
+    
     background: transparent; }
     .button-group-area .link:hover {
       color: #fff; }
@@ -1495,7 +1486,7 @@ h6 {
   margin-left: 10px; }
 
 .genric-btn.default {
-  color: #222222;
+  
   background: #f9f9ff;
   border: 1px solid transparent; }
 
@@ -1508,7 +1499,7 @@ h6 {
   background: #fff; }
 
 .genric-btn.default-border:hover {
-  color: #222222;
+  
   background: #f9f9ff;
   border: 1px solid transparent; }
 
@@ -1613,24 +1604,24 @@ h6 {
   border: 1px solid transparent; }
 
 .genric-btn.link {
-  color: #222222;
+  
   background: #f9f9ff;
   text-decoration: underline;
   border: 1px solid transparent; }
 
 .genric-btn.link:hover {
-  color: #222222;
+  
   border: 1px solid #f9f9ff;
   background: #fff; }
 
 .genric-btn.link-border {
-  color: #222222;
+  
   border: 1px solid #f9f9ff;
   background: #fff;
   text-decoration: underline; }
 
 .genric-btn.link-border:hover {
-  color: #222222;
+  
   background: #f9f9ff;
   border: 1px solid transparent; }
 
@@ -1671,7 +1662,7 @@ h6 {
   display: flex; }
 
 .progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
-  color: #222222;
+  
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 500; }
@@ -2074,7 +2065,7 @@ h6 {
   border: 1px solid #f1f1f1; }
 
 .single-defination h4 {
-  color: #222222; }
+   }
 
 .primary-checkbox input:checked + label {
   background: url(../img/elements/primary-check.png) no-repeat center center/cover;
@@ -2375,7 +2366,7 @@ h6 {
   background-size: 200% auto;
   padding: 0px 40px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -2394,8 +2385,8 @@ h6 {
   display: inline-block;
   background: #f9f9ff;
   padding: 0px 45px;
-  color: #222222;
-  font-family: "Roboto", sans-serif;
+  
+  
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -2418,7 +2409,7 @@ h6 {
   background: #766dff;
   padding: 0px 50px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  
   font-size: 13px;
   font-weight: 500;
   line-height: 50px;
@@ -2437,8 +2428,8 @@ h6 {
   display: inline-block;
   background: #f9f9ff;
   padding: 0px 35px;
-  color: #222222;
-  font-family: "Roboto", sans-serif;
+  
+  
   font-size: 13px;
   font-weight: 500;
   line-height: 34px;
@@ -2463,12 +2454,12 @@ h6 {
   display: inline-block;
   border-radius: 5px;
   font-size: 13px;
-  font-family: "Roboto", sans-serif;
+  
   font-weight: 500;
   transition: all 300ms linear 0s; }
   .black_btn:hover {
     background: #766dff;
-    color: #222222; }
+     }
 
 /* End Main Button Area css
 ============================================================================================ */
@@ -2497,14 +2488,14 @@ h6 {
 }
 
 .welcome_text h4 {
-  color: #222222;
+  
   font-family: "Heebo", sans-serif;
   font-size: 36px;
   margin-bottom: 18px;
   text-transform: uppercase; }
 .welcome_text p {
   max-width: 495px;
-  font-family: "Roboto", sans-serif;
+  
   margin-bottom: 40px; }
 
 .wel_item {
@@ -2519,13 +2510,10 @@ h6 {
     font-size: 24px;
     font-family: "Heebo", sans-serif;
     font-weight: bold;
-    color: #222222;
+    
     margin-bottom: 5px;
     margin-top: 10px; }
   .wel_item p {
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    color: #333;
     margin-bottom: 0px; }
 
 .tools_expert {
@@ -2537,9 +2525,9 @@ h6 {
     .tools_expert .skill_main .skill_item h4 {
       text-align: none;
       font-size: 14px;
-      font-family: "Roboto", sans-serif;
+      
       font-weight: 500;
-      color: #222222;
+      
       margin-bottom: 15px; }
     .tools_expert .skill_main .skill_item .progress_br {
       border: 1px solid #eeeeee;
@@ -2586,12 +2574,12 @@ h6 {
       font-size: 13px;
       font-weight: 500;
       color: #fff;
-      font-family: "Roboto", sans-serif;
+      
       border: 1px solid #9ab5f5;
       background: rgba(255, 255, 255, 0.1); }
       .tabs_inner .nav.nav-tabs li a.active {
         background: #fff;
-        color: #222222; }
+         }
 .tabs_inner .tab-content .tab-pane .list {
 
   margin: auto;
@@ -2693,7 +2681,7 @@ h6 {
       color: #e1e1e1;
       line-height: 60px; }
   .feature_item h4 {
-    color: #222222;
+    
     font-size: 21px;
     font-family: "Heebo", sans-serif;
     font-weight: bold;
@@ -2727,27 +2715,27 @@ h6 {
     padding-left: 95px; }
 
 .personal_text h6, .personal_text .p1 {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-size: .9rem;
+  
   text-transform: uppercase;
   letter-spacing: 2.1px;
   font-weight: normal;
   margin-bottom: 12px;
-  color: #222222; }
+  }
 .personal_text h4, .personal_text .p2 {
-  font-size: 16px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #222222; }
+ }
+  
 .personal_text h1 {
   font-size: 40px;
   text-transform: uppercase;
-  margin-bottom: 0;
-  color: #222222; }
+ }
+ 
 .personal_text p {
-  font-family: "Roboto", sans-serif;
+  
   max-width: 540px;
   color: #777777;
   margin-bottom: 40px; }
@@ -2807,9 +2795,8 @@ h6 {
         margin-right: 0px; }
       .isotope_fillter .gallery_filter li a {
         font-size: 12px;
-        font-family: "Roboto", sans-serif;
+        
         font-weight: 500;
-        color: #222222;
         transition: all 300ms linear 0s;
         text-transform: uppercase; }
       .isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
@@ -2847,7 +2834,6 @@ h6 {
   .h_gallery_item .g_item_text {
     text-align: center; }
     .h_gallery_item .g_item_text h4 {
-      color: #222222;
       font-size: 21px;
       margin-top: 22px;
       transition: all 300ms linear 0s; }
@@ -2893,9 +2879,8 @@ h6 {
   align-self: center; }
 
 .test_title h2 {
-  color: #222222;
   font-size: 36px;
-  font-family: "Roboto", sans-serif;
+  
   font-weight: bold;
   margin-bottom: 12px; }
 .test_title p {
@@ -2909,7 +2894,6 @@ h6 {
   .testi_item p {
     font-style: italic; }
   .testi_item h4 {
-    color: #222222;
     font-size: 18px;
     text-transform: uppercase; }
   .testi_item a {
@@ -2936,7 +2920,7 @@ h6 {
 .ab_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  
   color: #777777;
   margin-bottom: 30px; }
   .ab_widget p a {
@@ -2949,7 +2933,7 @@ h6 {
   .news_widget p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
+    
     color: #777777;
     margin-bottom: 15px; }
   .news_widget .input-group input {
@@ -2961,28 +2945,28 @@ h6 {
     padding: 0px 15px;
     border: 1px solid #1e233b;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    
     color: #cccccc;
     outline: none;
     box-shadow: none; }
     .news_widget .input-group input.placeholder {
       font-size: 14px;
-      font-family: "Roboto", sans-serif;
+      
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input:-moz-placeholder {
       font-size: 14px;
-      font-family: "Roboto", sans-serif;
+      
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input::-moz-placeholder {
       font-size: 14px;
-      font-family: "Roboto", sans-serif;
+      
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input::-webkit-input-placeholder {
       font-size: 14px;
-      font-family: "Roboto", sans-serif;
+      
       font-weight: normal;
       color: #cccccc; }
   .news_widget .input-group .sub-btn {
@@ -3001,7 +2985,7 @@ h6 {
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  
   color: #777777;
   margin-bottom: 10px; }
 .social_widget .list li {
@@ -3040,6 +3024,10 @@ img {
 
 .custom-list-orange {
     padding-left: 18px;
+}
+
+li {
+    padding-top: 2px;
 }
 
 
@@ -3116,6 +3104,7 @@ img {
     padding: 1rem 2rem;
     border-radius: 5px;
 	line-height: 1.1;
+	display: inline-block;
 }
 
 .banner-text h2, .banner-text p{

@@ -8,14 +8,14 @@
       <title>Sunita - MeetMe</title>
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="vendors/linericon/style.css">
       <link rel="stylesheet" href="css/font-awesome.min.css">
-      <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!-- main css -->
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/responsive.css">
+      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
    </head>
-   <body>
+   <body class="show-back-to-top">
       <!--================Header Menu Area =================-->
       <header class="header_area">
          <div class="main_menu">
@@ -31,12 +31,16 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                      <ul class="nav navbar-nav menu_nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <!--<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>-->
                         <li class="nav-item"><a class="nav-link" href="#about-us">About Myself</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+						<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#accessible-ui">Accessible UI</a></li>
                         <li class="nav-item"><a class="nav-link" href="#accessible-work">My Accessible Work</a></li>
                         <li class="nav-item"><a class="nav-link" href="#hire-me"><span class="primary-btn">Hire Me</span></a></li>
+                     </ul>
+                     <ul class="list personal_social">
+                        <li><a href="https://www.linkedin.com/in/sunita-kalekar-0247026a/" target="_blank" aria-label="Sunita on Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/sunita.mahadikkalekar/" target="_blank" aria-label="Sunita on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                      </ul>
                   </div>
                </div>
@@ -45,350 +49,413 @@
       </header>
       <!--================Header Menu Area =================-->
       <!--================Home Banner Area =================-->
-      <section class="home_banner_area">
-         <div class="container box_1620">
-            <div class="banner_inner d-flex align-items-center">
-               <div class="banner_content">
-                  <div class="row">
-                     <div class="col-lg-4">
-                        <img src="img/sunita_profile_pic.jpg" alt="" class="rounded">
+      <main id="content">
+         <section class="home_banner_area">
+            <div class="container box_1620">
+               <div class="banner_inner d-flex align-items-center">
+                  <div class="banner_content">
+                     <div class="row">
+                        <div class="col-lg-5">
+                           <img src="img/sunita_profile_pic.jpg" alt="" class="rounded">
+                        </div>
+                        <div class="col-lg-7">
+                           <div class="personal_text">
+                              <h1 id="home">sunita kalekar.</h1>
+                              <p class="p2">UI Designer / Front-end Developer</p>
+                              <p>I'm a UI designer specializing in accessible UI design and a Front-end Developer (HTML and CSS) who writes clean, semantic, and error-free HTML code. Have visual and typographical skills, with a keen eye for detailing.</p>
+                           </div>
+                           <div class="row welcome_text">
+                              <div class="col-md-4">
+                                 <div class="wel_item">
+                                    <i class="fa fa-code" aria-hidden="true"></i>							  
+                                    <p class="p1">30+</p>
+                                    <p>Accessible Web Design & Coding</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="wel_item">
+                                    <i class="fa fa-edit" aria-hidden="true"></i>
+                                    <p class="p1">5</p>
+                                    <p>Accessible Remediation</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="wel_item">
+                                    <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                                    <p class="p1">3</p>
+                                    <p>Accessible Dashboard</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
-                     <div class="col-lg-4">
-                        <div class="personal_text">
-                           <p class="p1">Hello Everybody, I am</p>
-                           <h1>SUNITA KALEKAR</h1>
-                           <p class="p2">UI Designer / Developer</p>
-                           <ul class="list basic_info">
-                              <li><i class="lnr lnr-phone-handset" aria-label="Phone"></i> &nbsp;7506647701</li>
-                              <li><i class="lnr lnr-envelope" aria-label="Email"></i> &nbsp;<a href="mailto:sunitamhdk@gmail.com">sunitamhdk@gmail.com</a></li>
-                              <li><i class="lnr lnr-home" aria-label="Location"></i> &nbsp;Mumbai - Maharashtra, India</li>
-                              <li><i class="lnr lnr-text-format" aria-label="Language"></i>
-                                 &nbsp;English, Hindi, Marathi
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--================End Home Banner Area =================-->
+         <!--================Welcome Area =================-->
+         <section class="welcome_area p_120" id="about-us" style="background: #FAFAFA;">
+            <div class="container">
+               <h2 class="gray">about myself.</h2>
+               <div class="row welcome_inner">
+                  <div class="col-lg-12">
+                     <div class="welcome_text">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="wel_item">
+                                 <h3>designer</h3>
+                                 <p>
+                                    UI designer specialising in UI design and design systems.
+                                 </p>
+                                 <br>
+                                 <ul class="custom-list-orange" style="margin-bottom: 0;">
+                                    <li>Figma - Auto Layout, Wireframe, Prototype, Low-fidelity, High-fidelity designs, Icon design </li>
+                                    <li>Photoshop, Illustrator</li>
+                                    <li>Newsletter Design</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="wel_item">
+                                 <h3>&lt;coder&gt;</h3>
+                                 <p>
+                                    Front-end developer - HTML, CSS.
+                                 </p>
+                                 <br>
+                                 <ul class="custom-list-orange" style="margin-bottom: 0;">
+                                    <li>HTML5, CSS3</li>
+                                    <li>Bootstrap 5 Framework</li>
+                                    <li>WordPress (Backend, Frontend editor)</li>
+                                    <li>Flex, Grid Layout</li>
+                                    <li>Web / Responsive Design</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="wel_item">
+                                 <h3>tester</h3>
+                                 <p>
+                                    Accessibility Functional tester.
+                                 </p>
+                                 <br>
+                                 <ul class="custom-list-orange" style="margin-bottom: 0;">
+                                    <li>WCAG Guidelines - 2.0, 2.1</li>
+                                    <li>Section 508</li>
+                                    <li>WAI-ARIA</li>
+                                    <li>Accessibility</li>
+                                    <li>Fuctional Testing</li>
+                                    <li>Remediation - Accessible Website </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <br>   
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="wel_item">
+                        <h3>trainer</h3>
+                        <p>
+                           Conducted accessibility training on below elements.
+                        </p>
+                        <br>
+                        <ul class="custom-list-orange" style="margin: 0;">
+                           <li>Headings, Lists</li>
+                           <li>Color Contrast, Images</li>
+                           <li>Non-text Contrast</li>
+                           <li>CSS Styles</li>
+                           <li>Flashing, Blining and Moving content</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="wel_item"><br><img src="img/css.png" alt="Certificate of BarrierBreak Champion for Colour Contrast" class="rounded"></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="wel_item"><br><img src="img/color_contrast.png" alt="Certificate of BarrierBreak Champion for CSS - Style Sheets" class="rounded"></div>
+                  </div>
+               </div>
+               <br>	
+               <h3 class="sr-only">Certification</h3>
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="wel_item"><img src="img/section_508_certification.png" alt="Certificate of Completion - Section 508 Standards for Web" class="rounded"></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="wel_item"><img src="img/html_certification.png" alt="Certificate of Completion - Front End Development - HTML" class="rounded"></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="wel_item"><img src="img/section_508_certification2.png" alt="Certificate of Completion - Introduction to Trsted Tester Testing Tools" class="rounded"></div>
+                  </div>
+               </div>
+               <br>		
+            </div>
+            </div>
+            </div>
+         </section>
+         <!--================End Welcome Area =================-->
+         <!--================My Tabs Area =================-->
+            <section class="mytabs_area" id="projects">
+            <div class="container">
+               <h2>projects.</h2>
+               <div class="row">
+                  <div class="tabs_inner col-lg-6">
+                     <div class="tab-content">
+                        <div class="tab-pane fade show active">
+                           <ul class="list">
+                              <li>
+                                 <span></span>
+                                 <div class="media">
+                                    <div class="media-body">
+                                       <h3><a href="https://www.barrierbreak.com/" target="_blank">BarrierBreak Solutions Pvt. Ltd.</a></h3>
+                                       <p>Role: Visual Designer / Developer</p>
+                                       <p>Technology: Figma, HTML, CSS, Bootstrap, WordPress, Photoshop</p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <span></span>
+                                 <div class="media">
+                                    <div class="media-body">
+                                       <h3><a href="https://247accessibledocuments.com/" target="_blank">247 Accessible Documents Pte. Ltd.</a></h3>
+                                       <p>Role: Visual Designer / Developer</p>
+                                       <p>Technology: Figma, HTML, CSS, Bootstrap, WordPress, Photoshop</p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <span></span>
+                                 <div class="media">
+                                    <div class="media-body">
+                                       <h3><a href="https://newzhook.com/" target="_blank">Inclusive News India Private Limited.</a></h3>
+                                       <p>Role: UI Designer / Developer</p>
+                                       <p>Technology: HTML, CSS, Bootstrap, WordPress, Photoshop</p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <span></span>
+                                 <div class="media">
+                                    <div class="media-body">
+                                       <h3><a href="https://hotela11y.com/" target="_blank">Hotela11y</a></h3>
+                                       <p>Role: Visual Designer</p>
+                                       <p>Technology: HTML, CSS, Bootstrap, WordPress, Photoshop</p>
+                                    </div>
+                                 </div>
                               </li>
                            </ul>
-                           <ul class="list personal_social">
-                              <li><a href="https://www.linkedin.com/in/sunita-kalekar-0247026a/" target="_blank" aria-label="Sunita on Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                              <li><a href="https://www.facebook.com/sunita.mahadikkalekar/" target="_blank" aria-label="Sunita on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tabs_inner col-lg-6">
+                     <div class="tab-content">
+                        <div class="tab-pane fade show active">
+                           <ul class="list">
+                              <li>
+                                 <span></span>
+                                 <div class="media">
+                                    <div class="media-body">
+                                       <h3>Website Accessible Remediation</h3>
+                                       <p>Role: HTML/CSS Developer</p>
+                                       <ul style="list-style: none; padding-left: 0;">
+            	<li style="margin-bottom: 0;">- Dermatology website</li>
+            	<li style="margin-bottom: 0;">- Feminist website<br>
+            	<li style="margin-bottom: 0;">- Healthcare website <br>
+            	<li style="margin-bottom: 0;">- NGO websites
+            </ul>
+                                       <p>Technology: HTML, CSS</p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <span></span>
+                                 <div class="media">
+                                    <div class="media-body">
+                                       <h3>Accessible Dashboard Projects</h3>
+                                       <p>Role: Visual Designer (CSS Customization)</p>
+                                       <p>Technology: HTML, CSS, Bootstrap</p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <span></span>
+                                 <div class="media">
+                                    <div class="media-body">
+                                       <h3>Indian Government Websites</h3>
+                                       <p>Role: UI Designer / Developer</p>
+                                       <p>Technology: HTML, CSS, Bootstrap</p>
+                                    </div>
+                                 </div>
+                              </li>
                            </ul>
                         </div>
                      </div>
-                     <div class="col-lg-4">
-                        <div class="personal_text">
-                           <h2>Expertise</h2>
-                           <ul class="custom-list-orange" style="margin-bottom: 0;">
-                              <li>HTML5, CSS3</li>
-                              <li>Bootstrap 5 Framework</li>
-                              <li>WordPress (Visual and Backend editor)</li>
-							  <li>Flex, Grid Layout</li>
-                              <li>Web / Responsive Design</li>
-                              <li>Figma - Wireframe, Prototype, Low-fidelity, High-fidelity designs, Icon design </li>
-                              <li>Photoshop, Illustrator</li>
-                              <li>WCAG 2.0, 2.1</li>
-                              <li>Accessibility, Fuctional Testing</li>
-                              <li>WAI-ARIA, Section 508</li>							  
-                              <li>Newsletter Design</li>
-                           </ul>
+                  </div>
+               </div>
+            </div>
+            </section>
+         <!--================End My Tabs Area =================-->
+         <!--================Home Gallery Area =================-->
+         <section class="home_gallery_area" style="padding-top: 4rem; padding-bottom: 4rem;"  id="accessible-ui">
+            <div class="container">
+               <div class="main_title">
+                  <p class="gray text-uppercase">Some of My Latest Work</p>
+                  <h2>accessible ui, better user experience.</h2>
+                  <p>Design accessible UI in Figma for better user experince for different types of users.</p>
+               </div>
+            </div>
+            <div class="container" >
+               <div class="gallery_f_inner row imageGallery1" style="border-bottom: 1px solid #999;">
+                  <div class="col-lg-4 col-md-4 col-sm-12 brand manipul creative" style="display: flex; align-items: center;">
+                     <div class="h_gallery_item" >
+                        <div >
+                           <h3 id="heading-level">Headings</h3>
+                           <p>Use heading level such as <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> while designing UI in Figma to make the page structure accessible.  </p>
+                           <p><strong>In Attached Figma sshot - "Text Styles" panel marked in red border shows Heading 1 style selected.</strong></p>
+                           <p>Also in sshot, "Accessible UI, Better User Experience" marked as <code>&lt;h1&gt;</code>. "UI elements" marked as <code>&lt;h2&gt;</code> and "Headings", "Color", "Images", "Non-text Contrast" marked as <code>&lt;h3&gt;</code> as per the structure of page.</p>
+                           <a href="https://www.figma.com/proto/1Ls0M6vWAj0dCUy91GSBzM/Accessible-UI-in-Figma?type=design&node-id=96-323&t=tGe2L1X0GxQYj40s-0&scaling=min-zoom&page-id=0%3A1" target="_blank" id="heading-read-more" aria-labelledby="heading-read-more heading-level "><span class="secondary-btn">Read more</span></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12 brand manipul design print">
+                     <div class="h_gallery_item">
+                        <div class="g_img_item">
+                           <img class="img-fluid" src="img/headings_new2.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <br><br><br><br>
+               <div class="gallery_f_inner row imageGallery1" >
+                  <div class="col-lg-8 col-md-8 col-sm-12 brand manipul creative">
+                     <div class="h_gallery_item">
+                        <div class="g_img_item">
+                           <img class="img-fluid" src="img/color_new2.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12 brand manipul creative" style="display: flex; align-items: center;">
+                     <div class="h_gallery_item">
+                        <div class="">
+                           <h3 id="color">Color Contrast</h3>
+                           <p>When color is used on a web page, to ensure accessibility, the right color contrast must always be identified.</p>
+                           <p><strong>WCAG 2.0 level AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text.</strong></p>
+                           <p>In Attached Figma sshot - the "Read More" button text - 19px bold, passed the CCA test for Large text. "Read More" link test in the paragraph - 16px regular, failed CCA text for Normal text. </p>
+                           <a href="https://www.figma.com/proto/1Ls0M6vWAj0dCUy91GSBzM/Accessible-UI-in-Figma?type=design&node-id=96-323&t=tGe2L1X0GxQYj40s-0&scaling=min-zoom&page-id=0%3A1" target="_blank" id="color-read-more" aria-labelledby="color-read-more color"><span class="secondary-btn">Read more</span></a>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
-      <!--================End Home Banner Area =================-->
-      <!--================Welcome Area =================-->
-      <section class="welcome_area p_120" id="about-us">
-         <div class="container">
-            <div class="row welcome_inner">
-               <div class="col-lg-6">
-                  <div class="welcome_text">
-                     <h2>About Myself</h2>
-                     <p>Highly skilled and creative UI/Visual designer, HTML/CSS developer with 10 years of experience seeking a challenging position in a dynamic organization where I can utilize my expertise to create accessible and visually appealing user experiences. </p>
-                     <div class="row">
-                        <div class="col-md-4">
-                           <div class="wel_item">
-                              <i class="lnr lnr-database"></i>
-                              <p class="p1">20+</p>
-                              <p>Accessible Web Design</p>
-                           </div>
-                        </div>
-                        <div class="col-md-4">
-                           <div class="wel_item">
-                              <i class="lnr lnr-book"></i>
-                              <p class="p1">4</p>
-                              <p>Accessible Remediation</p>
-                           </div>
-                        </div>
-                        <div class="col-md-4">
-                           <div class="wel_item">
-                              <i class="lnr lnr-users"></i>
-                              <p class="p1">3</p>
-                              <p>Accessible Dashboard</p>
-                           </div>
-                        </div>
-                     </div>
+         </section>
+         <!--================End Home Gallery Area =================-->
+         <section class="banner-text">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-6">
+                     <h2>Accessible UI, <br>Better User Experience</h2>
                   </div>
-               </div>
-               <div class="col-lg-6">
-                  <div class="certificate-container">
-                     <div style="border: 1px solid #eeeeee; padding: 1.5rem 1rem 0 1rem; border-radius: 5px;">
-                        <h2>Certification</h2>
-                        <ul>
-                           <li><strong>DHS trusted tester </strong> certification - in progress</li>
-                           <li><strong>Google UI/UX</strong> certification - in progress</li>
-                        </ul>
-                     </div>
-                     <div><img src="img/section_508_certification.png" alt="Certificate of Completion - Section 508 Standards for Web"></div>
-                     <div><img src="img/html_certification.png" alt="Certificate of Completion - Front End Development - HTML"></div>
-                     <div><img src="img/section_508_certification2.png" alt="Certificate of Completion - Introduction to Trsted Tester Testing Tools"></div>
+                  <div class="col-md-6">
+                     <a href="https://www.figma.com/proto/1Ls0M6vWAj0dCUy91GSBzM/Accessible-UI-in-Figma?type=design&node-id=96-323&t=tGe2L1X0GxQYj40s-0&scaling=min-zoom&page-id=0%3A1" target="_blank"><span class="_advp _aeam">View more in Figma</span></a>
                   </div>
                </div>
             </div>
-         </div>
-         </div>
-         </div>
-      </section>
-      <!--================End Welcome Area =================-->
-      <!--================My Tabs Area =================-->
-      <section class="mytabs_area" id="projects">
-         <div class="container">
-            <h2>Projects</h2>
-            <div class="row">
-               <div class="tabs_inner col-lg-6">
-                  <div class="tab-content">
-                     <div class="tab-pane fade show active">
-                        <ul class="list">
-                           <li>
-                              <span></span>
-                              <div class="media">
-                                 <div class="media-body">
-                                    <h3><a href="https://www.barrierbreak.com/" target="_blank">BarrierBreak Solutions Pvt. Ltd.</a></h3>
-                                    <p>Role: Visual Designer / Developer</p>
-                                    <p>Technology: Figma, HTML, CSS, Bootstrap, WordPress, Photoshop</p>
-                                 </div>
-                              </div>
-                           </li>
-                           <li>
-                              <span></span>
-                              <div class="media">
-                                 <div class="media-body">
-                                    <h3><a href="https://247accessibledocuments.com/" target="_blank">247 Accessible Documents Pte. Ltd.</a></h3>
-                                    <p>Role: Visual Designer / Developer</p>
-                                    <p>Technology: Figma, HTML, CSS, Bootstrap, WordPress, Photoshop</p>
-                                 </div>
-                              </div>
-                           </li>
-                           <li>
-                              <span></span>
-                              <div class="media">
-                                 <div class="media-body">
-                                    <h3><a href="https://newzhook.com/" target="_blank">Inclusive News India Private Limited.</a></h3>
-                                    <p>Role: UI Designer / Developer</p>
-                                    <p>Technology: HTML, CSS, Bootstrap, WordPress, Photoshop</p>
-                                 </div>
-                              </div>
-                           </li>
-                           <li>
-                              <span></span>
-                              <div class="media">
-                                 <div class="media-body">
-                                    <h3><a href="https://hotela11y.com/" target="_blank">Hotela11y</a></h3>
-                                    <p>Role: Visual Designer</p>
-                                    <p>Technology: HTML, CSS, Bootstrap, WordPress, Photoshop</p>
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
+         </section>
+         <!--================Home Gallery Area =================-->
+         <section class="home_gallery_area" style="padding-top: 4rem; padding-bottom: 4rem; background: #FAFAFA;"  id="accessible-work">
+            <div class="container">
+               <div class="main_title">
+                  <h2>my accessible work.</h2>
                </div>
-               <div class="tabs_inner col-lg-6">
-                  <div class="tab-content">
-                     <div class="tab-pane fade show active">
-                        <ul class="list">
-                           <li>
-                              <span></span>
-                              <div class="media">
-                                 <div class="media-body">
-                                    <h3>Website Accessible Remediation</h3>
-                                    <p>Role: HTML/CSS Developer</p>
-                                    <ul style="list-style: none; padding-left: 0;">
-										<li style="margin-bottom: 0;">- Dermatology website</li>
-										<li style="margin-bottom: 0;">- Feminist website<br>
-										<li style="margin-bottom: 0;">- Healthcare website <br>
-										<li style="margin-bottom: 0;">- NGO websites
-									</ul>
-                                    <p>Technology: HTML, CSS</p>
-                                 </div>
-                              </div>
-                           </li>
-                           <li>
-                              <span></span>
-                              <div class="media">
-                                 <div class="media-body">
-                                    <h3>Accessible Dashboard Projects</h3>
-                                    <p>Role: Visual Designer (CSS Customization)</p>
-                                    <p>Technology: HTML, CSS, Bootstrap</p>
-                                 </div>
-                              </div>
-                           </li>
-                           <li>
-                              <span></span>
-                              <div class="media">
-                                 <div class="media-body">
-                                    <h3>Indian Government Websites</h3>
-                                    <p>Role: UI Designer / Developer</p>
-                                    <p>Technology: HTML, CSS, Bootstrap</p>
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--================End My Tabs Area =================-->
-      <!--================Home Gallery Area =================-->
-      <section class="home_gallery_area" style="padding-top: 4rem; padding-bottom: 4rem;"  id="accessible-ui">
-         <div class="container">
-            <div class="main_title">
-               <h2>Accessible UI, Better User Experience</h2>
-            </div>
-         </div>
-         <div class="container">
-            <div class="gallery_f_inner row imageGallery1">
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul design print">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
-                        <img class="img-fluid" src="img/headings_new2.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p>Use headings such as h1, h2, etc. in the UI to make it accessible. Attached Figma sshot - "Text Styles" panel marked in red border shows Heading 1 style selected.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul creative">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
-                        <img class="img-fluid" src="img/color_new2.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p>In the above Figma sshot - the "Read More" button text - 19px bold, color (#FFFFFF) passed with background color (#F05537) with a 3.5:1 contrast ratio for Large text, and the "Read More" link text in the paragraph - 16px regular, color (#F05537) failed with background color (#FFFFFF) with 3.5:1 contrast ratio for Normal text. The minimum requirement ratio to pass the CCA test is 4.5:1 for normal text.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul creative">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
-                        <img class="img-fluid" src="img/color.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p>In the above Figma sshot - All the informative icon images marked with red border must meet 3:1 contrast ratio to pass CCA test. "Arrow" icon (#999999) - pointing downward used in the accordion here failed CCA test with background color (#fffff). 
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul creative">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
-                        <img class="img-fluid" src="img/non-text.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p>In the above Figma sshot - The text input field border (#999999) failed the CCA test with background color (#fffff). Also image of the text "Donate Now.." (#fffff) failed the CCA test with background color (#F7AA9B). Must meet a 3:1 contrast ratio to pass the CCA test.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--================End Home Gallery Area =================-->
-	  
-	  
-<section class="banner-text">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>Accessible UI, <br>Better User Experience</h2>
-                  
-               </div>
-               <div class="col-md-6">
-                  <a href="https://www.figma.com/proto/1Ls0M6vWAj0dCUy91GSBzM/Accessible-UI-in-Figma?type=design&node-id=96-323&t=tGe2L1X0GxQYj40s-0&scaling=min-zoom&page-id=0%3A1" target="_blank"><span class="_advp _aeam">Check in Figma</span></a>
-               </div>
-            </div>
-         </div>
-</section>	  
-	  
-	  
-	  
-	  
-      <!--================Home Gallery Area =================-->
-      <section class="home_gallery_area" style="padding-top: 4rem; padding-bottom: 4rem;"  id="accessible-work">
-         <div class="container">
-            <div class="main_title">
-               <h2>My Accessible work</h2>
-            </div>
-         </div>
-         <div class="container">
-            <div class="gallery_f_inner row imageGallery1">
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul design print">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
+               <div class="grid-container">
+                  <div class="gid-item">
+                     <a href="https://www.barrierbreak.com/" target="_blank">
                         <img class="img-fluid" src="img/bb.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p><strong>BarrierBreak Homepage</strong></p>
-                     </div>
+                        <p class="title">BarrierBreak Website</p>
+                        <p class="subtitle">Front-end development</p>
+                     </a>
                   </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul creative">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
+                  <div class="gid-item">
+                     <a href="https://247accessibledocuments.com/" target="_blank">
                         <img class="img-fluid" src="img/247.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p><strong>247 Accessible Documents Homepage</strong></p>
-                     </div>
+                        <p class="title">247 Accessible Documents Website</p>
+                        <p class="subtitle">Front-end development</p>
+                     </a>
                   </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul creative">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
-                        <img src="img/dashboard_login_page.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p><strong>Dashboard Login Page</strong></p>
-                     </div>
-                     <br>
-                     <div class="g_img_item">
+                  <div class="gid-item">
+                     <a href="https://newzhook.com/category/nhbrandview/bigbazaarview/" target="_blank">
+                        <img src="img/newzhook.png" alt="">
+                        <p class="title">NewzHook Website</p>
+                        <p class="subtitle">UI design and development</p>
+                     </a>
+                  </div>
+                  <div class="gid-item">
+                     <a href="http://mybblife2.barrierbreak.com/" target="_blank">
+                        <img class="img-fluid" src="img/dashboard_login_page2.png" alt="">
+                        <p class="title">Dashboard Login page</p>
+                        <p class="subtitle">UI design and development</p>
+                     </a>
+                  </div>
+                  <div class="gid-item">
+                     <a href="http://unblock.newzhook.com/" target="_blank">
+                        <img class="img-fluid" src="img/unblock.png" alt="">
+                        <p class="title">Unblock Website</p>
+                        <p class="subtitle">Card layout</p>
+                     </a>
+                  </div>
+                  <div class="gid-item">
+                     <a href="http://unblock.newzhook.com/" target="_blank">
+                        <img class="img-fluid" src="img/unblock2.png" alt="">
+                        <p class="title">Unblock Website</p>
+                        <p class="subtitle">List Layout</p>
+                     </a>
+                  </div>
+                  <div class="gid-item">
+                     <a href=			   
+                        "http://agilea11yweb-dev.s3-website-us-east-1.amazonaws.com/" target="_blank">
                         <img src="img/dashboard_cards.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p><strong>Dashboard Card Layout</strong></p>
-                     </div>
+                        <p class="title">Dashboard Card Layout</p>
+                        <p class="subtitle">Completed, In Progress, Not Strated</p>
+                     </a>
                   </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-6 brand manipul creative">
-                  <div class="h_gallery_item">
-                     <div class="g_img_item">
-                        <img src="img/unblock.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p><strong>Card Layout</strong></p>
-                     </div>
-                     <br>
-                     <div class="g_img_item">
-                        <img src="img/unblock2.png" alt="">
-                     </div>
-                     <div class="g_item_text">
-                        <p><strong>List Layout</strong></p>
-                     </div>
+                  <div class="gid-item">
+                     <a href="https://www.figma.com/proto/J7PIMpzGg8KzL0OrusIfYX/Coffee-House---Digital-Wireframe?type=design&node-id=94-2874&t=N93y9VXJSCvnmvrU-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=94%3A2874&show-proto-sidebar=1&mode=design" target="_blank">			   
+                     <img src="img/wireframe_n_prototype.png" alt="">
+                     </a>
+                     <p class="title">Wireframing and Prototyping</p>
+                     <p class="subtitle">Low-fidelity design</p>
+                  </div>
+                  <div class="gid-item">
+                     <a href="https://247accessibledocuments.com/" target="_blank">
+                        <img src="img/responsive.png" alt="">
+                        <p class="title">Responsive Layout</p>
+                        <p class="subtitle">Device friendly design</p>
+                     </a>
+                  </div>
+                  <div class="gid-item">
+                     <a href="https://www.barrierbreak.com/" target="_blank">
+                        <img src="img/aria.png" alt="">
+                        <p class="title">WAI-ARIA - aria-labelledby</p>
+                        <p class="subtitle">Accessible name - Read more accessibility testing</p>
+                     </a>
+                  </div>
+                  <div class="gid-item">
+                     <img src="img/remediation.png" alt="">
+                     <p class="title">Accessiblity Remediation</p>
+                     <p class="subtitle">Issue: Inappropriate heading structure</p>
+                  </div>
+                  <div class="gid-item">
+                     <img src="img/testing.png" alt="">
+                     <p class="title">Fuctional Testing</p>
+                     <p class="subtitle">Accessiblity Fuctional Testing</p>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
+         </section>
+      </main>
       <!--================End Home Gallery Area =================-->
       <!--================Footer Area =================-->
       <footer class="banner-text" id="hire-me">
@@ -396,12 +463,17 @@
             <div class="row">
                <div class="col-md-6">
                   <h2 class="sr-only">
-                  Hire Me
+                     Hire Me
                   </h2>
                   <p>Chat on WhatsApp with +91 75066 47701</p>
                </div>
                <div class="col-md-6">
                   <a href="https://web.whatsapp.com/send/?phone=%2B917506647701&amp;text&amp;type=phone_number&amp;app_absent=0" title="Share on WhatsApp" id="action-button" class="_9vcv _advm _9scb" data-ms="{&quot;creative&quot;:&quot;link&quot;}" target="_blank"><span class="_advp _aeam">Continue to Chat</span></a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">		 
+                  <a href="#content" id="scroll"><span style="position: absolute;right:-800px;">Back To Top</span><i class="material-icons" aria-hidden="true" style="font-size: 30px;">arrow_upward</i></a>			 
                </div>
             </div>
          </div>
@@ -412,5 +484,6 @@
       <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/popper.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src=" https://www.barrierbreak.com/wp-content/themes/neve/script38.js"></script>
    </body>
 </html>

@@ -3185,12 +3185,12 @@ box-shadow: 0 4px 10px 0 rgba(71, 62, 103, .1);
 @media only screen and (max-width: 480px){
 	
 .banner-text {
-    height: 300px;
+    height: auto;
 }
 	
 .grid-container, .certificate-container{
     display: grid;
-	grid-template-columns: 100%;
+    grid-template-columns: 100%;
     grid-gap: 20px;
 }
 }

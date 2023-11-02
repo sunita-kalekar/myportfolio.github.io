@@ -2768,6 +2768,8 @@ h6 {
   .personal_text .basic_info li:last-child {
     margin-bottom: 0px; }
 
+.navbar-nav {margin-right: 1rem;}
+
 .personal_social  {
     margin-left: 1rem;
 	}
@@ -3210,7 +3212,7 @@ border: 1px solid #cacaca;
 #scroll {
     position: fixed;
     right: 30px;
-    bottom: 90px;
+    bottom: 80px;
     cursor: pointer;
     width: 50px;
     height: 50px;

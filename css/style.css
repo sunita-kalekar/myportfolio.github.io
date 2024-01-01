@@ -73,8 +73,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   color: #211D26;
- /* background: #FAFAFA; */
   }
+  
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
@@ -1411,10 +1411,17 @@ h1 {
   font-size: 36px; }
 
 h2 {
-  font-size: 40px; }
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #666;
+  
+  }
 
 h3 {
-  font-size: 24px; }
+font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;  }
 
 h4 {
   font-size: 18px; }
@@ -2770,10 +2777,6 @@ h6 {
 
 .navbar-nav {margin-right: 1rem;}
 
-.personal_social  {
-    margin-left: 1rem;
-	}
-
 .personal_social li {
     display: inline-block;
 	}
@@ -3099,7 +3102,7 @@ li {
 }
 
 .banner-text .row {
-	max-width: 950px;
+	max-width: 900px;
 	margin: 0 auto;
 	display: flex;
     justify-content: center;
@@ -3137,6 +3140,22 @@ li {
     font-size: 1.25rem;
 }
 
+.primary-btn:hover,
+.primary-btn:active,
+.primary-btn:focus {
+	color: #fff !important;
+    background: #CD492F;
+	text-decoration: none !important;
+}
+
+.nav-link .primary-btn:hover,
+.nav-link .primary-btn:active,
+.nav-link .primary-btn:focus {
+	color: #fff !important;
+    background: #f05537;
+	text-decoration: none !important;
+}
+
 .secondary-btn {
     color: #f05537;
     font-weight: 900;
@@ -3148,6 +3167,12 @@ li {
 	font-size: 1.25rem;	
 }
 
+.secondary-btn:hover, 
+.secondary-btn:active,
+.secondary-btn:focus{
+    color: #CD492F;
+    border: 1px solid #CD492F;
+}
 
 .grid-container {
     display: grid;
@@ -3192,7 +3217,7 @@ box-shadow: 0 4px 10px 0 rgba(71, 62, 103, .1);
 	
 .grid-container, .certificate-container{
     display: grid;
-    grid-template-columns: 100%;
+	grid-template-columns: 100%;
     grid-gap: 20px;
 }
 }

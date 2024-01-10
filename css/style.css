@@ -3104,9 +3104,9 @@ li {
 }
 
 .banner-text .row {
-	max-width: 900px;
-	margin: 0 auto;
-	display: flex;
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
     align-items: center;	
 }
